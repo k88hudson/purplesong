@@ -5,5 +5,8 @@
   "main": "index.js",
   "scripts": {},
   "author": "",
-  "license": "MPL-2.0"
+  "license": "MPL-2.0",
+  "dependencies": {
+    "random-words": "0.0.1"
+  }
 }
