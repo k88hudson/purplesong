@@ -1,7 +1,11 @@
 module.exports = function () {
+
+    // This is where we import our random-words program
     var randomWord = require('random-words');
 
-    // Make a song!
+    // We can use it to make a song!
+    // e.g. This might output:
+    //      dog space pizza
     var mySong = randomWord() + ' ' + randomWord() + ' ' randomWord();
 
     // Sing it!
